@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Router>
     <Routes>
-      <Route path='/portfolio-app/' element={<Layout />}></Route>
+      <Route path='https://brijesh1990.github.io/portfolio-app/' element={<Layout />}></Route>
       <Route path='/portfolio-app/contact-us' element={<Contact />}></Route>
       <Route path='/portfolio-app/delete-contact/:id' element={<DeleteContact />}></Route>
       <Route path='/portfolio-app/edit-contact/:id' element={<EditContact />}></Route>

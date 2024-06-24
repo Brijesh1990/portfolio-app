@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <Router>
     <Routes>
       <Route path='https://brijesh1990.github.io/portfolio-app/' element={<Layout />}></Route>
-      <Route path='/contact-us/' element={<Contact />}></Route>
+      <Route path='/contact-us' element={<Contact />}></Route>
       <Route path='/delete-contact/:id' element={<DeleteContact />}></Route>
       <Route path='/edit-contact/:id' element={<EditContact />}></Route>
     </Routes>
